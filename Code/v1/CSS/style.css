@@ -1,0 +1,89 @@
+body{
+	/*padding-top: 70px;*/
+	/*background-image: url("../Graphic/BackGround/connectwork.png") !important;*/
+    color: #c3c3c3;
+	background: #d6d5d5;
+	
+	font-family: 'Nunito', sans-serif !important;
+}
+
+.bg-blue{background-color: #3163b9;}
+.bg-red{background-color: #b93731;}
+.bg-lightblue{background-color: #7CC0FF;}
+.bg-darkblue{background-color: #0E5EA9;}
+.bg-lightgrey {background-color: #bcbcbc;}
+.bg-darkkhaki {background-color: #BDB76B;}
+.bg-chinapink {background-color: #DE6FA1;}
+.bg-bole {background-color: #79443B;}
+.bg-violet {background-color: #8F00FF;}
+
+.card{
+	padding: 5px;
+	margin-bottom: 20px;
+	border-radius: 2px !important;
+}
+
+.container-footer{
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+    background-color: #112116;
+    /*background-color: #494b5f;*/
+}
+
+.closebtn{
+	margin-left: 15px;
+	color: white;
+	font-weight: bold;
+	float: right;
+	font-size: 22px;
+	line-height: 20px;
+	cursor: pointer;
+	transition: 0.3s;
+}
+
+.closebtn:hover{
+	color: black;
+}
+
+
+/* ---------------------------------------------------
+    NAVBAR STYLE
+----------------------------------------------------- */
+
+a, a:hover, a:focus{
+    color: inherit;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+.navbar{
+    padding: 15px 10px;
+    background: #fff;
+    border: none;
+    border-radius: 0;
+    margin-bottom: 40px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-btn{
+    box-shadow: none;
+    outline: none !important;
+    border: none;
+}
+
+i, span{
+    display: inline-block;
+}
+
+
+/* ---------------------------------------------------
+    CONTENT STYLE
+----------------------------------------------------- */
+
+#content {
+    width: 100%;
+    padding-bottom: 20px;
+    min-height: 100vh;
+    transition: all 0.3s;
+}
